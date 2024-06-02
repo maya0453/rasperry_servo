@@ -24,7 +24,7 @@ try:
     while True:
         for x in percents:
             p.ChangeDutyCycle(x)
-            time.sleep(0.1)
+            time.sleep(0.4)
             print(x)
 except KeyboardInterrupt:
     GPIO.cleanup()
